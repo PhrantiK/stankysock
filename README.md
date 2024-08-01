@@ -42,9 +42,9 @@ local f = win["is-floating"] and "yep" or "nope"
 print("floating? - " .. f)
 
 -- optional table of properties to restrict response:
-local disp = yabai.space({"index", "label"})
+local s = yabai.space({"index", "label"})
 
-print("Active Space Index: " .. disp.index .. " Label: " .. disp.label)
+print("Active Space Index: " .. s.index .. " Label: " .. s.label)
 
 ```
 **CC0 -** `⌘c⌘v`
