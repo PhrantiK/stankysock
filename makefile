@@ -1,8 +1,8 @@
 CC := clang
 CFLAGS := -Wall -Wextra -std=c99 -g -fPIC -O3
 LDFLAGS := -shared
-LUA_INCLUDE := /opt/homebrew/Cellar/lua/5.4.7/include/lua
-LUA_LIB := /opt/homebrew/Cellar/lua/5.4.7/lib
+LUA_INCLUDE := /opt/homebrew/Cellar/lua/5.5.0/include/lua
+LUA_LIB := /opt/homebrew/Cellar/lua/5.5.0/lib
 
 INSTALL_DIR := $(HOME)/.local/share/stankysock
 TARGET := bin/stankysock.so
